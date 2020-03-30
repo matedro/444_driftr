@@ -25,7 +25,7 @@ export default function Register(props) {
           <input type="text" name="password" />
           <br />
           <br />
-          <input type="submit" value="Login" />
+          <input type="submit" value="Create" />
         </form>
       </div>
     </body>
