@@ -7,6 +7,7 @@ function Filter() {
       <h2>Filters</h2>
       <div align="left">
         <label>Age: <input size={2} /> - <input size={2} /></label>
+        <br/>
         <label>Nationality: </label>
         <select>
           <option value="">Select one...</option>

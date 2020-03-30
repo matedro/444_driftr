@@ -8,7 +8,14 @@
   border-right: solid;
   padding: 10px;
   height: 93vh;
+  width: 15vw;
   margin: 0px;
+}
+
+.Grid {
+  padding: 10px;
+  height: 93vh;
+  overflow-y: scroll;
 }
 
 .Summary {
@@ -20,4 +27,5 @@
   border-left: solid;
   padding: 10px;
   height: 93vh;
+  width: 15vw;
 }

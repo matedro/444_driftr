@@ -13,8 +13,20 @@ function EvalDetailParent() {
         <tr>
           <td><Filter /></td>
           <td>
-            <div styles={{height: window.innerHeight, overflowY: 'scroll'}}>
+            <div className="Grid">
               <Grid container spacing={1}>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
                 <Grid item><ProfileSummary /></Grid>
                 <Grid item><ProfileSummary /></Grid>
                 <Grid item><ProfileSummary /></Grid>
