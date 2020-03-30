@@ -5,21 +5,24 @@ import ProfileDetail from './ProfileDetail.js';
 
 function EvalDetailChild() {
   return (
-    <table>
-      <tr>
-        <td>
-          <Grid container spacing={1}>
-            <Grid item><ProfileSummary /></Grid>
-            <Grid item><ProfileSummary /></Grid>
-            <Grid item><ProfileSummary /></Grid>
-            <Grid item><ProfileSummary /></Grid>
-            <Grid item><ProfileSummary /></Grid>
-            <Grid item><ProfileSummary /></Grid>
-          </Grid>
-        </td>
-        <td><ProfileDetail /></td>
-      </tr>
-    </table>
+    <div>
+      <h1>Profile Evaluation</h1>
+      <table>
+        <tr>
+          <td>
+            <Grid container spacing={1}>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+            </Grid>
+          </td>
+          <td><ProfileDetail /></td>
+        </tr>
+      </table>
+    </div>
   )
 }
 

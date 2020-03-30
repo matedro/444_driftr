@@ -4,14 +4,17 @@ import ProfileSummary from './ProfileSummary.js';
 
 function EvalChild() {
   return (
-    <Grid container spacing={1}>
-      <Grid item><ProfileSummary /></Grid>
-      <Grid item><ProfileSummary /></Grid>
-      <Grid item><ProfileSummary /></Grid>
-      <Grid item><ProfileSummary /></Grid>
-      <Grid item><ProfileSummary /></Grid>
-      <Grid item><ProfileSummary /></Grid>
-    </Grid>
+    <div>
+      <h1>Profile Evaluation</h1>
+      <Grid container spacing={1}>
+        <Grid item><ProfileSummary /></Grid>
+        <Grid item><ProfileSummary /></Grid>
+        <Grid item><ProfileSummary /></Grid>
+        <Grid item><ProfileSummary /></Grid>
+        <Grid item><ProfileSummary /></Grid>
+        <Grid item><ProfileSummary /></Grid>
+      </Grid>
+    </div>
   )
 }
 

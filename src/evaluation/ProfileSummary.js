@@ -1,16 +1,26 @@
 import React from 'react';
-import logo from "../logo.svg";
+import man from "../profile/mannn.jpg";
 
 function ProfileSummary() {
   return (
     <div>
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Big Timbus and Timbetta
-      </p>
-      <p>
-        Parents: 2<br />
-        Nationality: US
+      <table>
+        <tr>
+          <td>
+            <img
+              src={man}
+              className="man"
+              alt="man" w
+              dth='50'
+              height='50'
+            />
+          </td>
+          <td><label>Little Timmy</label></td>
+        </tr>
+      </table>
+      <p align='left'>
+        Age: 5<br/>
+        Nationality: American
       </p>
     </div>
   )
