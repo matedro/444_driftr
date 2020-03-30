@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./homepage.css";
 import logo from "./tempLogo.png";
 
-export default function Login(props) {
+export default function Homepage(props) {
   function handleSubmit(event) {}
 
   return (

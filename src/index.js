@@ -5,10 +5,11 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import Login from "./login";
 import Homepage from "./homepage";
+import Register from "./register";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Homepage />
+    <Register />
   </React.StrictMode>,
   document.getElementById("root")
 );
