@@ -1,14 +1,15 @@
 import React from 'react';
 import man from '../profile/mannn.jpg';
+import "./Eval.css";
 
 function ProfileDetail() {
   return (
-    <div>
+    <div align="center" className="Detail">
       <img
         src={man}
         className="man"
-        alt="man" w
-        dth='200'
+        alt="man"
+        width='200'
         height='200'
       />
       <h2>Little Timmy</h2>

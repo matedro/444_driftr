@@ -3,11 +3,12 @@ import Grid from "@material-ui/core/Grid";
 import Filter from './Filter.js';
 import ProfileSummary from './ProfileSummary.js';
 import ProfileDetail from './ProfileDetail.js';
+import './Eval.css';
 
 function EvalDetailParent() {
   return (
     <div>
-      <h1>Profile Evaluation</h1>
+      <h1 className="Header">Profile Evaluation</h1>
       <table>
         <tr>
           <td><Filter /></td>

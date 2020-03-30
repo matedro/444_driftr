@@ -1,0 +1,23 @@
+.Header {
+  border-bottom: solid;
+  margin: 0px;
+  height: 7vh;
+}
+
+.Filter {
+  border-right: solid;
+  padding: 10px;
+  height: 93vh;
+  margin: 0px;
+}
+
+.Summary {
+  border: solid;
+  padding: 10px;
+}
+
+.Detail {
+  border-left: solid;
+  padding: 10px;
+  height: 93vh;
+}

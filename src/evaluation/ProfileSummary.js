@@ -1,9 +1,10 @@
 import React from 'react';
 import man from "../profile/mannn.jpg";
+import "./Eval.css";
 
 function ProfileSummary() {
   return (
-    <div>
+    <div className="Summary">
       <table>
         <tr>
           <td>
