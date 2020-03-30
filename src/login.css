@@ -1,0 +1,25 @@
+.log {
+  margin: auto;
+  width: 30%;
+  border: 3px solid lightblue;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20%;
+}
+.text {
+  color: grey;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 72px;
+  margin: 0 0 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.field {
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+}
