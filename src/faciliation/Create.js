@@ -1,4 +1,5 @@
 import React from 'react'
+import './create.css'
 
 function Create() {
     return (
@@ -8,14 +9,14 @@ function Create() {
                 <h1>New Account</h1>
             </header>
             <form className="faciliaitonAccountForm">
-                <input type="radio" id="parent" name="accountType" value="parent"></input>
-                <label for="parent">Parent</label>
-                <input type="radio" id="child" name="accountType" value="child"></input>
-                <label for="child">Child</label><br/>
+                <input type="radio" id="parent" name="accountType" value="parent" className="newAccountRadio"></input>
+                <label for="parent" className="newAccountRadioLabel">Parent</label>
+                <input type="radio" id="child" name="accountType" value="child" className="newAccountRadio"></input>
+                <label for="child" className="newAccountRadioLabel">Child</label><br/>
                 <label for="email">Email</label>
                 <input type="email" id="email"></input><br/>
-                <input type="button" id="accountCancel" value="Cancel"></input> <br/>
-                <input type="submit" id="accountSubmit" value="Create Account"></input>
+                <input type="button" id="accountCancel" className="newAccountButton" value="Cancel"></input>
+                <input type="submit" id="accountSubmit" className="newAccountButton" value="Create Account"></input>
             </form>
         </div>
     )
