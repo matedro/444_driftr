@@ -1,0 +1,33 @@
+.inputRight {
+    padding-bottom : 5%;
+    text-align: right;
+  font-family: "Raleway", sans-serif;
+
+}
+
+.man {
+    float: right;
+    padding-top : 3%;
+    padding-right : 20%;
+    display: inline-block;
+}
+
+.bigWrapper {
+    padding-left:10%;
+    padding-top:2%;
+    display: inline-block;
+}
+
+.button {
+    padding-top: 5%;
+    text-align: center;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
