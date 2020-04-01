@@ -11,6 +11,7 @@ function Matches() {
             <select name="Child" className="faciliationMatchesSelect">
                 <option>Little Timmy</option>
             </select>
+            <input type="button" className="facilitationMatchesNewAccountButton" value="New Account"></input>
             <div className="matchesTableContainer">
                 <table className="matchesTable">
                     <thead>

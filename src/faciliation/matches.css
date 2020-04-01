@@ -12,6 +12,12 @@ header {
     font-size: large;
 }
 
+.facilitationMatchesNewAccountButton {
+    margin-top: 2%;
+    float: right;
+    font-size: xx-large;
+}
+
 .matchesTableContainer {
     margin: 1%;
 }
