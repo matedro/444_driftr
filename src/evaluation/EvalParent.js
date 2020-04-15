@@ -6,12 +6,30 @@ import ProfileSummary from './ProfileSummary.js';
 function EvalParent() {
   return (
     <div>
-      <h1>Profile Evaluation</h1>
+      <h1 className="Header">Profile Evaluation</h1>
       <table>
         <tr>
           <td><Filter /></td>
           <td>
             <Grid container spacing={1}>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
+              <Grid item><ProfileSummary /></Grid>
               <Grid item><ProfileSummary /></Grid>
               <Grid item><ProfileSummary /></Grid>
               <Grid item><ProfileSummary /></Grid>

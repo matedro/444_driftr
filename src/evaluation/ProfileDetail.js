@@ -12,13 +12,14 @@ function ProfileDetail() {
         width='200'
         height='200'
       />
-      <h2>Little Timmy</h2>
+      <h2>Parents Name</h2>
       <p align='left'>
-        Age: 5<br/>
+        Parents: 2<br/>
+        Age: 30 & 32<br/>
         Nationality: American<br/>
         Gender: M<br/>
-        Interests: Blocks<br/><br/><br/>
-        Medical History: Great<br/>
+        Interests: Getting a child<br/><br/><br/>
+        Family Environment: Great<br/>
       </p>
       <button>Accept</button>
       <button>Decline</button>

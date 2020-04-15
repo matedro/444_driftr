@@ -6,18 +6,38 @@ import ProfileDetail from './ProfileDetail.js';
 function EvalDetailChild() {
   return (
     <div>
-      <h1>Profile Evaluation</h1>
+      <h1 className="Header">Profile Evaluation</h1>
       <table>
         <tr>
           <td>
-            <Grid container spacing={1}>
-              <Grid item><ProfileSummary /></Grid>
-              <Grid item><ProfileSummary /></Grid>
-              <Grid item><ProfileSummary /></Grid>
-              <Grid item><ProfileSummary /></Grid>
-              <Grid item><ProfileSummary /></Grid>
-              <Grid item><ProfileSummary /></Grid>
-            </Grid>
+            <div className="Grid">
+              <Grid container spacing={1}>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+                <Grid item><ProfileSummary /></Grid>
+              </Grid>
+            </div>
           </td>
           <td><ProfileDetail /></td>
         </tr>

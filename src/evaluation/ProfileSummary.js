@@ -16,11 +16,11 @@ function ProfileSummary() {
               height='50'
             />
           </td>
-          <td><label>Little Timmy</label></td>
+          <td><label>Parents Name</label></td>
         </tr>
       </table>
       <p align='left'>
-        Age: 5<br/>
+        Parents: 2<br/>
         Nationality: American
       </p>
     </div>
