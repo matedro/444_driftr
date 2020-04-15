@@ -2,10 +2,13 @@ import React from 'react';
 import Grid from "@material-ui/core/Grid";
 import ProfileSummary from './ProfileSummary.js';
 import ProfileDetail from './ProfileDetail.js';
+import LogoutButton from "./../LogoutButton";
+import './Eval.css';
 
 function EvalDetailChild() {
   return (
     <div>
+      <LogoutButton />
       <h1 className="Header">Profile Evaluation</h1>
       <table>
         <tr>

@@ -3,11 +3,13 @@ import Grid from "@material-ui/core/Grid";
 import Filter from './Filter.js';
 import ProfileSummary from './ProfileSummary.js';
 import ProfileDetail from './ProfileDetail.js';
+import LogoutButton from "./../LogoutButton";
 import './Eval.css';
 
 function EvalDetailParent() {
   return (
     <div>
+      <LogoutButton />
       <h1 className="Header">Profile Evaluation</h1>
       <table>
         <tr>

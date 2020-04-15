@@ -3,6 +3,8 @@ import Grid from "@material-ui/core/Grid";
 import { useHistory } from "react-router-dom";
 import Filter from './Filter.js';
 import ProfileSummary from './ProfileSummary.js';
+import LogoutButton from "./../LogoutButton";
+import './Eval.css';
 
 function EvalParent() {
   let history = useHistory();
@@ -13,6 +15,7 @@ function EvalParent() {
 
   return (
     <div>
+      <LogoutButton />
       <h1 className="Header">Profile Evaluation</h1>
       <table>
         <tr>
