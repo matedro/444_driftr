@@ -1,7 +1,20 @@
 import React from 'react'
 import './create.css'
+import {
+    useHistory
+} from "react-router-dom";
 
 function Create() {
+    let history = useHistory();
+
+    function handleCancel() {
+        history.push("/f/matches");
+    }
+
+    function handleSubmit() {
+        history.push("/f/matches");
+    }
+
     return (
         <div className="faciliationNewAccount">
             <header>
@@ -15,8 +28,8 @@ function Create() {
                 <label for="child" className="newAccountRadioLabel">Child</label><br/>
                 <label for="email" className="newAccountLabel">Email</label>
                 <input type="email" id="email"></input><br/>
-                <input type="button" id="accountCancel" className="newAccountButton" value="Cancel"></input>
-                <input type="submit" id="accountSubmit" className="newAccountButton" value="Create Account"></input>
+                <input type="button" id="accountCancel" className="newAccountButton" value="Cancel" onClick={handleCancel}></input>
+                <input type="submit" id="accountSubmit" className="newAccountButton" value="Create Account" onClick={handleSubmit}></input>
             </form>
         </div>
     )

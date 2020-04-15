@@ -30,7 +30,7 @@ function App() {
         <Route path="/p/create-profile">
           <Adult />
         </Route>
-        <Route path="/p/evaluate">
+        <Route exact path="/p/evaluate">
           <EvalParent />
         </Route>
         <Route path="/p/evaluate/detail">
@@ -40,7 +40,7 @@ function App() {
         <Route path="/c/create-profile">
           <Child />
         </Route>
-        <Route path="/c/evaluate">
+        <Route exact path="/c/evaluate">
           <EvalChild />
         </Route>
         <Route path="/c/evaluate/detail">

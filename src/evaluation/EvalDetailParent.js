@@ -15,30 +15,37 @@ function EvalDetailParent() {
           <td>
             <div className="Grid">
               <Grid container spacing={1}>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
-                <Grid item><ProfileSummary /></Grid>
+                <Grid item>
+                  <ProfileSummary
+                    isChild={true}
+                    name="Little Timmy"
+                    age="5"
+                    nationality="American"
+                  />
+                </Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
+                <Grid item><ProfileSummary isChild={true}/></Grid>
               </Grid>
             </div>
           </td>
