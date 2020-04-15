@@ -3,6 +3,7 @@ import './matches.css'
 import {
     useHistory
  } from "react-router-dom"
+import LogoutButton from "./../LogoutButton";
 
 function Matches() {
     let history = useHistory();
@@ -13,6 +14,7 @@ function Matches() {
 
     return (
         <div className="faciliationMatches">
+            <LogoutButton />
             <header>
                 <h1 className="headerLogo">Driftr</h1>
                 <h1>Match Management</h1>

@@ -3,6 +3,7 @@ import './create.css'
 import {
     useHistory
 } from "react-router-dom";
+import LogoutButton from "./../LogoutButton";
 
 function Create() {
     let history = useHistory();
@@ -17,6 +18,7 @@ function Create() {
 
     return (
         <div className="faciliationNewAccount">
+            <LogoutButton />
             <header>
                 <h1 className="headerLogo">Driftr</h1>
                 <h1>New Account</h1>
