@@ -4,7 +4,7 @@ import "./Eval.css";
 
 function ProfileSummary(props) {
   return (
-    <div className="Summary">
+    <div className="Summary" onClick={props.onClick}>
       <table>
         <tr>
           <td>
