@@ -2,7 +2,7 @@ import React from 'react';
 import man from "../profile/mannn.jpg";
 import "./Eval.css";
 
-function ProfileSummary() {
+function ProfileSummary(props) {
   return (
     <div className="Summary">
       <table>
@@ -16,12 +16,18 @@ function ProfileSummary() {
               height='50'
             />
           </td>
-          <td><label>Parents Name</label></td>
+          <td>
+            <label>{props.name ? props.name : "Undefined"}</label>
+          </td>
         </tr>
       </table>
       <p align='left'>
-        Parents: 2<br/>
-        Nationality: American
+        {props.isChild ? "Age: " : "Parents: "}
+        {props.isChild
+          ? (props.age ? props.age : "0")
+          : (props.numParents ? props.numParents : "0")
+        }<br/>
+        Nationality: {props.nationality ? props.nationality : "Undefined"}
       </p>
     </div>
   )
