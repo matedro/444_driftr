@@ -1,32 +1,39 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import './Child.css';
 import Man from './mannn.jpg';
 import LogoutButton from '../LogoutButton';
 
-function Child() {return (
-<div className="profileChild">
+function Child() {
+  let history = useHistory();
+
+  function handleSave() {
+    history.push("/c/evaluate");
+  }
+
+  return (
+    <div className="profileChild">
     <header>
         <h1>Child Profile Creation</h1>
         <LogoutButton />
     </header>
     <div className="inputContainer2">
-    <img src={Man} alt="profile image" width="200" height="160" class="man"/>
-    <br />
-    <input type="button" value="Upload"></input>
-    <input type="button" value="Clear"></input>
-</div>
+        <img src={Man} alt="profile image" width="200" height="160" class="man"/>
+        <br />
+        <input type="button" value="Upload"></input>
+        <input type="button" value="Clear"></input>
+    </div>
 
-    <div className="bigWrapper">
-            <div className="inputRight">
-                <form>
-                    <label>
-                        Name:
-                        <input type="text" name="name" />
-                    </label>
-                </form>
-            </div>
-            <div className="inputRight">
-
+      <div className="bigWrapper">
+        <div className="inputRight">
+          <form>
+            <label>
+              Name:
+              <input type="text" name="name" />
+            </label>
+          </form>
+        </div>
+        <div className="inputRight">
                 <form>
                     <label>
                         Age:
@@ -77,6 +84,9 @@ function Child() {return (
     </div>
     <div className="childProfileButton">
         <input type="submit" value="Save" />
+      </div>
     </div>
-</div>
-); } export default Child;
+  );
+}
+
+export default Child;

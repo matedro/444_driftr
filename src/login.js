@@ -17,7 +17,7 @@ export default function Login(props) {
   }
   function handleSubmit(event) {
     if (email === "child" && password === "password") {
-      history.push("/c/evaluate");
+      history.push("/c/create-profile");
     }
     if (email == "parent" && password == "password") {
       history.push("/p/evaluate");
