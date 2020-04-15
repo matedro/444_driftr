@@ -1,4 +1,4 @@
-.log {
+.loginDiv {
   margin: auto;
   width: 30%;
   border: 3px solid lightblue;
@@ -6,7 +6,7 @@
   text-align: center;
   margin-top: 20%;
 }
-.text {
+.loginText {
   color: grey;
   font-family: "Raleway", sans-serif;
   font-size: 50px;
@@ -17,7 +17,7 @@
   text-transform: uppercase;
 }
 
-.field {
+.loginField {
   padding: 0px;
   margin-left: auto;
   margin-right: auto;

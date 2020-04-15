@@ -31,13 +31,13 @@ export default function Login(props) {
   }
   return (
     <body>
-      <div className="log">
-        <form className="field" onSubmit={handleSubmit}>
-          <h1 className="text">Login</h1>
+      <div className="loginDiv">
+        <form className="loginField" onSubmit={handleSubmit}>
+          <h1 className="loginText">Login</h1>
           <p>Email</p>
-          <input type="text" name="email" onChange={handleEmailChange} />
+          <input type="loginText" name="email" onChange={handleEmailChange} />
           <p>Password</p>
-          <input type="text" name="password" onChange={handlePasswordChange} />
+          <input type="loginText" name="password" onChange={handlePasswordChange} />
           <br />
           <br />
           <input type="submit" value="Login" />
