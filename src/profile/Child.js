@@ -83,7 +83,7 @@ function Child() {
             </div>
     </div>
     <div className="childProfileButton">
-        <input type="submit" value="Save" />
+        <input type="submit" value="Save" onClick={handleSave}/>
       </div>
     </div>
   );
