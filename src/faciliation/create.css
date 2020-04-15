@@ -1,0 +1,36 @@
+header {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.headerLogo {
+    float: left;
+}
+
+.faciliaitonAccountForm {
+    /* float: left; */
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 2%;
+    text-align: center;
+    border: 2px solid lightblue;
+    padding: 2%
+}
+
+.faciliaitonAccountForm .newAccountRadio {
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.faciliaitonAccountForm .newAccountButton {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    margin-top: 5%;
+    font-size: xx-large;
+}
+
+.faciliaitonAccountForm .newAccountLabel {
+    margin: 2%;
+}
