@@ -15,4 +15,4 @@ Facilitators are able to review completed matches, and approve matches to move f
 
 ### Unsupported Features and Known Bugs
 Currently, the matching algorithm is simulated to demonstrate the front end of the application - no matching 
-algorithm is implemented.
+algorithm is implemented. Further, the filtration system on the matching page is currently not implemented.
