@@ -1,7 +1,6 @@
 import React from 'react';
 import './matches.css'
 import {
-    Link,
     useHistory
  } from "react-router-dom"
 
