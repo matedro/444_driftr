@@ -9,7 +9,7 @@ function Matches() {
     let history = useHistory();
 
     function handleRedirect() {
-        history.push('/f/create')
+        history.push('/f/create');
     }
 
     return (
@@ -21,7 +21,7 @@ function Matches() {
             <select name="Child" className="faciliationMatchesSelect">
                 <option>Little Timmy</option>
             </select>
-            <button className="facilitationMatchesNewAccountButton" onClick={handleRedirect}>New Account</button>
+            <input type="button" className="facilitationMatchesNewAccountButton" value="New Account" onClick={handleRedirect}></input>
             <div className="matchesTableContainer">
                 <table className="matchesTable">
                     <thead>
