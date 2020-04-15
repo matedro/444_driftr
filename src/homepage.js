@@ -1,14 +1,20 @@
 import React, { useState } from "react";
 import "./homepage.css";
 import logo from "./tempLogo.png";
+import { useHistory } from "react-router-dom";
 
 export default function Homepage(props) {
-  function handleSubmit(event) {}
+  let history = useHistory();
+  function handleClick() {
+    history.push("/login");
+  }
 
   return (
     <body>
       <div>
-        <button className="button">Login</button>
+        <button className="button" onClick={handleClick}>
+          Login
+        </button>
         <img src={logo} alt="Driftr Logo" className="logo" />
 
         <h1 className="about">About Us</h1>

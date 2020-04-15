@@ -1,7 +1,11 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import "./register.css";
 export default function Register(props) {
-  function handleSubmit(event) {}
+  let history = useHistory();
+  function handleSubmit(event) {
+    history.push("/p/create-profile");
+  }
 
   return (
     <body>
@@ -16,7 +20,7 @@ export default function Register(props) {
         for your new account.
       </h2>
       <div className="log">
-        <form className="field">
+        <form className="field" onSubmit={handleSubmit}>
           <p>Username</p>
           <input type="text" name="email" />
           <p>Password</p>
