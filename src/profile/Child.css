@@ -6,9 +6,9 @@
 }
 
 .man {
-    float: right;
     padding-top : 3%;
     padding-right : 20%;
+    padding-left: 20%;
     display: inline-block;
 }
 
@@ -18,13 +18,17 @@
     display: inline-block;
 }
 
-.button {
+.childProfileButton {
     padding-top: 5%;
     text-align: center;
     color: black;
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
+}
+
+.inputWrapper2 {
+    float: right;
 }
 
 header {

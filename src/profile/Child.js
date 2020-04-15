@@ -1,17 +1,20 @@
 import React from 'react';
 import './Child.css';
 import Man from './mannn.jpg';
-function Child() { return (
+import LogoutButton from '../LogoutButton';
+
+function Child() {return (
 <div className="profileChild">
     <header>
         <h1>Child Profile Creation</h1>
-        <input type="submit" value="Logout" />
+        <LogoutButton />
     </header>
-        <img src={Man} alt="profile image" width="200" height="160" class="man"/>
-
     <div className="inputContainer2">
-
-    </div>
+    <img src={Man} alt="profile image" width="200" height="160" class="man"/>
+    <br />
+    <input type="button" value="Upload"></input>
+    <input type="button" value="Clear"></input>
+</div>
 
     <div className="bigWrapper">
             <div className="inputRight">
@@ -72,7 +75,7 @@ function Child() { return (
                     </form>
             </div>
     </div>
-    <div className="button">
+    <div className="childProfileButton">
         <input type="submit" value="Save" />
     </div>
 </div>
