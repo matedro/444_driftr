@@ -5,7 +5,7 @@ import ProfileSummary from './ProfileSummary.js';
 import LogoutButton from "./../LogoutButton";
 import './Eval.css';
 
-function EvalChild() {
+function EvalChild(props) {
   let history = useHistory();
 
   function handleSelection() {
@@ -18,15 +18,17 @@ function EvalChild() {
       <h1 className="Header">Profile Evaluation</h1>
       <div className="Grid">
         <Grid container spacing={1}>
-          <Grid item>
-            <ProfileSummary
-              isChild={false}
-              name="Timbus and Timbetta"
-              numParents="2"
-              nationality="American"
-              onClick={handleSelection}
-            />
-          </Grid>
+          {!props.profileHandled &&
+            <Grid item>
+              <ProfileSummary
+                isChild={false}
+                name="Timbus and Timbetta"
+                numParents="2"
+                nationality="American"
+                onClick={handleSelection}
+              />
+            </Grid>
+          }
           <Grid item><ProfileSummary isChild={false}/></Grid>
           <Grid item><ProfileSummary isChild={false}/></Grid>
           <Grid item><ProfileSummary isChild={false}/></Grid>

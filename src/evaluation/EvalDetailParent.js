@@ -6,7 +6,7 @@ import ProfileDetail from './ProfileDetail.js';
 import LogoutButton from "./../LogoutButton";
 import './Eval.css';
 
-function EvalDetailParent() {
+function EvalDetailParent(props) {
   return (
     <div>
       <LogoutButton />
@@ -17,14 +17,16 @@ function EvalDetailParent() {
           <td>
             <div className="Grid">
               <Grid container spacing={1}>
-                <Grid item>
-                  <ProfileSummary
-                    isChild={true}
-                    name="Little Timmy"
-                    age="5"
-                    nationality="American"
-                  />
-                </Grid>
+                {!props.profileHandled &&
+                  <Grid item>
+                    <ProfileSummary
+                      isChild={true}
+                      name="Little Timmy"
+                      age="5"
+                      nationality="American"
+                    />
+                  </Grid>
+                }
                 <Grid item><ProfileSummary isChild={true}/></Grid>
                 <Grid item><ProfileSummary isChild={true}/></Grid>
                 <Grid item><ProfileSummary isChild={true}/></Grid>
@@ -51,7 +53,13 @@ function EvalDetailParent() {
               </Grid>
             </div>
           </td>
-          <td><ProfileDetail isChild={true}/></td>
+          <td>
+            <ProfileDetail
+              isChild={true}
+              profileHandled={props.profileHandled}
+              onSubmit={props.onSubmit}
+            />
+          </td>
         </tr>
       </table>
     </div>
