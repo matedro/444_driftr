@@ -49,7 +49,7 @@ function EvalDetailParent() {
               </Grid>
             </div>
           </td>
-          <td><ProfileDetail /></td>
+          <td><ProfileDetail isChild={true}/></td>
         </tr>
       </table>
     </div>
