@@ -1,7 +1,17 @@
 import React from 'react';
 import './matches.css'
+import {
+    Link,
+    useHistory
+ } from "react-router-dom"
 
 function Matches() {
+    let history = useHistory();
+
+    function handleRedirect() {
+        history.push('/f/create');
+    }
+
     return (
         <div className="faciliationMatches">
             <header>
@@ -11,7 +21,7 @@ function Matches() {
             <select name="Child" className="faciliationMatchesSelect">
                 <option>Little Timmy</option>
             </select>
-            <input type="button" className="facilitationMatchesNewAccountButton" value="New Account"></input>
+            <input type="button" className="facilitationMatchesNewAccountButton" value="New Account" onClick={handleRedirect}></input>
             <div className="matchesTableContainer">
                 <table className="matchesTable">
                     <thead>
